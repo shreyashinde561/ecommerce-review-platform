@@ -1,0 +1,8 @@
+[
+  {"platform":"Amazon","text":"Great product!","sentiment":"positive","issues":[]},
+  {"platform":"Flipkart","text":"Late delivery","sentiment":"negative","issues":["Late Delivery"]},
+  {"platform":"Shopify","text":"Packaging was poor","sentiment":"negative","issues":["Poor Packaging"]},
+  {"platform":"Amazon","text":"Loved it","sentiment":"positive","issues":[]},
+  {"platform":"Flipkart","text":"Product damaged","sentiment":"negative","issues":["Damaged Product"]},
+  {"platform":"Shopify","text":"Excellent quality","sentiment":"positive","issues":[]}
+]

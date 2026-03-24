@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - SellerGrid</title>
+<link href="style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="sidebar">
+  <h1 class="text-2xl font-bold mb-8">SellerGrid</h1>
+  <a href="dashboard.html" class="active">Dashboard</a>
+  <a href="reviews.html">Reviews</a>
+  <a href="insights.html">Insights</a>
+</div>
+
+<div class="main-content">
+  <h1 class="text-3xl font-bold mb-6">Dashboard</h1>
+
+  <div id="stats-cards" class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6"></div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="card md:col-span-2">
+      <h2 class="font-bold mb-4">Sentiment Overview</h2>
+      <canvas id="sentimentChart"></canvas>
+    </div>
+    <div class="card">
+      <h2 class="font-bold mb-4">Key Issues</h2>
+      <ul id="issues-list"></ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
